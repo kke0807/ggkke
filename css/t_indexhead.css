@@ -43,4 +43,4 @@
         #gnb>ul>.gnb_04>a{ width: 90px;height: 24px;background-position: -5px -39px;}
         #gnb>ul>.gnb_05>a{width: 132px;height: 24px;background-position: -5px -73px;}
         #gnb>ul>li>a{background-position: center}
-        #gnb>ul>li>a:hover{border: 4px;border-image: url(../img/header/header_menu_br.png); text-decoration: none;}          
+        #gnb>ul>li>a:hover{border: 4px;border-image: url(../img/header/header_menu_br.png); text-decoration: none;transition: all .2s ease;}          
