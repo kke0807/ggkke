@@ -2,10 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/sub_brand.css">
+      <!--[if lte IE 9]>
+    <script src="./js/dist/html5shiv.min.js"></script>
+    <script src="./js/dist/ie9.min.js"></script>
+    <script src="./js/dist/PIE.js"></script> 
+    <script src="./js/dist/responsive.min.js"></script>
+    <![endif]-->
+    
+    <script src="./js/jquery/jquery-1.12.3.min.js"></script>
+    <script src="./js/jquery/jquery-migrate-1.3.0.min.js"></script>
+    <script src="./js/jquery/jquery-ui.min.js"></script>
     <title>어퓨</title>
     <style type="text/css"></style>
+     <script type="text/javascript">
+    </script>
 </head>
 
 <body>
@@ -58,9 +71,9 @@
           <div class="brand_title"></div>
           <div id="brand_title_image">
               <ul>
-                  <li><a href=""></a></li>
-                  <li><a href=""></a></li>
-                  <li><a href=""></a></li>
+                  <li class="brand_apieu1"><span class="me_hidden">어퓨매장이미지_1</span></li>
+                  <li class="brand_apieu2"><span class="me_hidden">어퓨매장이미지_2</span></li>
+                  <li class="brand_apieu3"><span class="me_hidden">어퓨매장이미지_3</span></li>
                 
               </ul>
           </div>
@@ -70,17 +83,20 @@
          <div class="brandstory_title">   
           </div>
           <div class="brandstory_menubar">
-                         <ul>
-                         <li class="bs_BI"></li>
-                         <li class="bs_Mark"></li>
-                         <li class="bs_Slogan"></li>
-                         <li class="bs_SI"></li>
+                         <ul class="me_link">
+                         <li class="bs_bi"><a href="#"><span>bs_bi</span></a></li>
+                         <li class="bs_mark"><a href="#"><span>bs_mark</span></a></li>
+                         <li class="bs_slogan"><a href="#"><span>bs_slogan</span></a></li>
+                         <li class="bs_si"><a href="#"><span>bs_si</span></a></li>
                          </ul>
                      </div>
               <div id="brandstory_box">
-                  <ul>
-                      <li class="brandstory_box_img"></li>
-                  </ul>
+                     <ul>
+                         <li class="box_bi"></li>
+                         <li class="box_mark"></li>
+                         <li class="box_slogan"></li>
+                         <li class="box_si"></li>
+                     </ul>
               </div>
       </div><!--//#story-->
       <div id="etc"  class="item">
