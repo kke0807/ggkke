@@ -7,42 +7,53 @@
         /*-------sub_head---------------------*/
         #sub_head {width: calc(100% - 120px);height: 20px;background-color: rgba(232,194,141,0.3); padding: 18px 60px;}
         #brand_maintitle{height:20px;width:130px;background-image: url(../img/article/sub_brand/brand_txt.png);background-repeat: no-repeat;float: left;margin-left: 4%;}
-        #brand_submenu{height:20px;width:178px;background-image: url(../img/article/sub_brand/brand_plus.png);background-repeat: no-repeat;float: right;}
+        #brand_submenu{height:20px;width:178px;background-image: url(../img/article/sub_brand/brand_plus.png);background-repeat: no-repeat;float: right;cursor: pointer;}
 
-
-
-            .item{margin:25px 0;}
-            .item_title{width: inherit;height: inherit;margin-bottom: 50px;}
-
-             .item_title>ul>li{width: 33.333333%;height: 100%;float: left;}
-             .item_title span{width: 100%;height: 18px;display: block;background-image: url(../img/line.png);background-repeat: no-repeat;background-position: center;float:left;}
-
+            .item{margin:30px 0;}
 
 /*background-color:rgba(232,194,141,0.3);*/
 /*---------------------best_item------------------- */
             #brand{width: 100%; height:auto;}
             .brand_title{width: 100%;height: 26px;background-position: center; background-image: url(../img/article/sub_brand/apieu_title.png);background-repeat: no-repeat;margin-bottom: 40px;}
-            #brand_title_image{width: 750px;height: 230px;background-image: url(../img/article/bg.png);background-position: center;box-shadow: 2px 2px 10px; margin: 0 auto;}
-            #brand_title_image>ul{width: 90%;height: 100%;}
-            #brand_title_image>ul>li{width: 30%;height: 100%;float: left;margin-left: 20px;margin-top: 12px;}
-            #brand_title_image>ul>li>a{}
+            #brand_title_image{width:100%;height: 250px;background-image: url(../img/article/bg.png);background-position: center;box-shadow: 2px 2px 10px; margin: 0 auto;}
+            #brand_title_image>ul{width: 100%;height: 100%;}
+            #brand_title_image>ul>li{width: 32%;height: 100%;float: left;margin: 0 6px;}
+                .brand_apieu1{background-image: url(../img/article/sub_brand/apieu_1.png);background-repeat: no-repeat;background-size: 95%;background-position: center;opacity: .8;}
+                .brand_apieu2{background-image: url(../img/article/sub_brand/apieu_2.png);background-repeat: no-repeat;background-size: 95%;background-position: center;opacity: .8;}
+                .brand_apieu3{background-image: url(../img/article/sub_brand/apieu_3.png);background-repeat: no-repeat;background-size: 95%;background-position: center;margin-right: 0;opacity: .8;}
+                #brand_title_image>ul>li:hover{transform: scale(1.1);transition: .5s ease-in-out;opacity: 1;}
+
+
            
 /*--------------------review--------------------------*/
             #story{width: 100%; height: auto; min-height:400px;}
              .brandstory_title{width: 100%;height: 26px;background-position: center; background-image: url(../img/article/sub_brand/brandstory_title.png);background-repeat: no-repeat;margin-bottom: 30px;	}
-.brandstory_menubar{width: 790px; height:32px; margin: 0 auto;margin-bottom: 30px; background-color: #ccc;}
+.brandstory_menubar{width: 784px; height:32px; margin: 0 auto;margin-bottom: 30px; background-color: #B5B3B3;}
 .brandstory_menubar>ul{width: 100%; height: 100%; }
-.brandstory_menubar>ul>li{width: 25%; height: 100%; float: left; }
-.bs_BI{background-image:url(../img/article/sub_brand/brandstory_menu_off_bi.png); background-repeat: no-repeat;}
-.bs_Mark{background-image:url(../img/article/sub_brand/brandstory_menu_off_mark.png); background-repeat: no-repeat;}
-.bs_Slogan{background-image:url(../img/article/sub_brand/brandstory_menu_off_slogan.png); background-repeat: no-repeat;}
-.bs_SI{background-image:url(../img/article/sub_brand/brandstory_menu_off_concept.png); background-repeat: no-repeat;}
-            #brandstory_box{width: 604px;height: 320px;background-color: #fff;margin: 0 auto;padding: 6px;}
-            #brandstory_box>li{height: 320px;}
+.brandstory_menubar>ul>li{width: 25%; height: 100%; float: left;}
+.brandstory_menubar>ul>li>a{width: 100px;height: 100%;}
+.bs_bi{background-image:url(../img/article/sub_brand/brandstory_menu_off_bi.png); background-repeat: no-repeat;}
+.bs_mark{background-image:url(../img/article/sub_brand/brandstory_menu_off_mark.png); background-repeat: no-repeat;}
+.bs_slogan{background-image:url(../img/article/sub_brand/brandstory_menu_off_slogan.png); background-repeat: no-repeat;}
+.bs_si{background-image:url(../img/article/sub_brand/brandstory_menu_off_concept.png); background-repeat: no-repeat;}
 
-            .brandstory_box_img{width: 604px;height: 320px; border: 4px solid #645622; background-image: url(../img/article/sub_brand/brandstory_bi.png);background-repeat: no-repeat; background-position: center;float: left;}
-            
-           
+
+/*
+.bs_BI:hover{background-image:url(../img/article/sub_brand/brandstory_menu_on_bi.png); background-repeat: no-repeat;background-size:196px 100%;}
+.bs_Mark:hover{background-image:url(../img/article/sub_brand/brandstory_menu_on_mark.png); background-repeat: no-repeat;background-size:196px 100%;}
+.bs_Slogan:hover{background-image:url(../img/article/sub_brand/brandstory_menu_on_slogan.png); background-repeat: no-repeat;background-size:196px 100%;}
+.bs_SI:hover{background-image:url(../img/article/sub_brand/brandstory_menu_on_concept.png); background-repeat: no-repeat;background-size:196px 100%;}
+*/
+
+            #brandstory_box{width: 604px;height: 320px;background-color: #fff;margin: 0 auto;padding: 6px;border: 4px solid #645622;overflow:hidden;}
+        
+            .box_bi{width: 604px;height: 320px; background-image: url(../img/article/sub_brand/brandstory_bi.png);background-repeat: no-repeat; background-position: center;margin-bottom: 10px;}
+            .box_mark{width: 604px;height: 320px;  background-image: url(../img/article/sub_brand/brandstory_mark.png);background-repeat: no-repeat; background-position: center;margin-bottom: 10px;}
+            .box_slogan{width: 604px;height: 320px; background-image: url(../img/article/sub_brand/brandstory_slogan.png);background-repeat: no-repeat; background-position: center;margin-bottom: 10px;}
+            .box_si{width: 604px;height: 320px;  background-image: url(../img/article/sub_brand/brandstory_si_concept.png);background-repeat: no-repeat; background-position: center;margin-bottom: 10px;}
+
+            .bs_mark>a:hover > #brandstory_box{background-color: #fac;width: 100%;height: 100%;}
+
 /*---------------------------etc----------------------*/
 #etc{width: 958px;height: 230px;}
 
@@ -51,35 +62,14 @@
 #store_box{width: calc(50% - 70px); height: 260px; float: left;  padding-left: 70px;}
 #store_box>h4{width: 100%; height: 34px; background-image: url(../img/article/sub_brand/Flagship_title.png); background-repeat: no-repeat; margin-bottom: 30px;}
 .store{width: 182px; height: 166px; background-image: url(../img/article/sub_brand/store.png);background-repeat: no-repeat; margin-left: 22%;}
-.store>.btn_02{width: 130px; height: 28px; margin-top: 108px; margin-left: 24px; background-image:  url("../img/article/button_2.png");background-repeat: no-repeat;background-position: center;float: left;}
+.store>.btn_02{width: 130px; height: 28px; margin-top: 108px; margin-left: 24px; background-image:  url("../img/article/button_2.png");background-repeat: no-repeat;background-position: center;float: left;cursor: pointer;}
 
 #membership_box{width: calc(50% - 70px); height: 260px; float: left;  }
 #membership_box>h4{width: 100%; height: 34px; background-image: url(../img/article/sub_brand/vipmembership_title.png); background-repeat: no-repeat; margin-bottom: 30px;}
 .membership_card{width: 182px; height: 166px; background-image: url(../img/article/sub_brand/card.png);background-repeat: no-repeat; margin-left: 22%;}
-.membership_card>.btn_01{width: 130px; height: 28px; margin-top: 108px; margin-left: 24px; background-image:  url("../img/article/button_1.png");background-repeat: no-repeat;background-position: center;float: left;}
+.membership_card>.btn_01{width: 130px; height: 28px; margin-top: 108px; margin-left: 24px; background-image:  url("../img/article/button_1.png");background-repeat: no-repeat;background-position: center;float: left;cursor: pointer;}
 
 
+.store:hover{background-image: url(../img/article/store_bg.png);background-repeat: no-repeat;transition: .5s ease-in-out;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* #membership_store>ul{width: 100%;height: 100%;margin:30px 30px 60px}
-#membership_store>ul>li{width: 50%;height: 100%;float: left;margin-top: 5px;margin-left: 16px;}
-#membership_store>ul>li>a{width: inherit;height: inherit;}
-#membership_store>ul>.membership_card{width: 182px;height: 166px;background-image: url("../img/article/card.png")}
-        #membership_store>ul>.membership_card>button{width: 130px;height: 28px;background-color:#fff;cursor: pointer;box-shadow: 1px 0 2px;}
-        .btn_01{margin-top: 108px; margin-left: 24px; background-image:  url("../img/article/button_1.png");background-repeat: no-repeat;background-position: center; float: left;}
-#membership_store>ul>.store{width: 182px;height: 166px;background-image: url("../img/article/store.png")}
-        #membership_store>ul>.store>button{width: 130px;height: 28px;background-color:#fff;cursor: pointer;box-shadow: 1px 0 2px;}
-        .btn_02{margin-top: 108px; margin-left: 24px; background-image:  url("../img/article/button_2.png");background-repeat: no-repeat;background-position: center;float: left;}
-#membership_store>ul>.membership_card:hover{background-image: url(../img/article/membership_bg.png);background-repeat: no-repeat;transition: .5s ease-in-out; }
-#membership_store>ul>.store:hover{background-image: url(../img/article/store_bg.png);background-repeat: no-repeat;transition: .5s ease-in-out;}*/
+.membership_card:hover{background-image: url(../img/article/membership_bg.png);background-repeat: no-repeat;transition: .5s ease-in-out;}
