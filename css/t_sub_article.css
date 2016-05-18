@@ -28,31 +28,26 @@
 /*--------------------review--------------------------*/
             #story{width: 100%; height: auto; min-height:400px;}
              .brandstory_title{width: 100%;height: 26px;background-position: center; background-image: url(../img/article/sub_brand/brandstory_title.png);background-repeat: no-repeat;margin-bottom: 30px;	}
-.brandstory_menubar{width: 784px; height:32px; margin: 0 auto;margin-bottom: 30px; background-color: #B5B3B3;}
-.brandstory_menubar>ul{width: 100%; height: 100%; }
-.brandstory_menubar>ul>li{width: 25%; height: 100%; float: left;}
-.brandstory_menubar>ul>li>a{width: 100px;height: 100%;}
-.bs_bi{background-image:url(../img/article/sub_brand/brandstory_menu_off_bi.png); background-repeat: no-repeat;}
-.bs_mark{background-image:url(../img/article/sub_brand/brandstory_menu_off_mark.png); background-repeat: no-repeat;}
-.bs_slogan{background-image:url(../img/article/sub_brand/brandstory_menu_off_slogan.png); background-repeat: no-repeat;}
-.bs_si{background-image:url(../img/article/sub_brand/brandstory_menu_off_concept.png); background-repeat: no-repeat;}
+            .brandstory_menubar{width: 793px; height:34px; margin: 0 auto;margin-bottom: 30px; background-color: #B5B3B3;}
+            .brandstory_menubar>ul{width: 100%; height: 100%; }
+            .brandstory_menubar>ul>li{width: 25%; height: 100%; float: left;}
+            .brandstory_menubar>ul>li>a{width: 100px;height: 100%;}
+            .bs_bi{background-image:url(../img/article/sub_brand/brandstory_menu_off_bi.png); background-repeat: no-repeat;}
+            .bs_mark{background-image:url(../img/article/sub_brand/brandstory_menu_off_mark.png); background-repeat: no-repeat;}
+            .bs_slogan{background-image:url(../img/article/sub_brand/brandstory_menu_off_slogan.png); background-repeat: no-repeat;}
+            .bs_si{background-image:url(../img/article/sub_brand/brandstory_menu_off_concept.png); background-repeat: no-repeat;}
+            
 
-
-/*
-.bs_BI:hover{background-image:url(../img/article/sub_brand/brandstory_menu_on_bi.png); background-repeat: no-repeat;background-size:196px 100%;}
-.bs_Mark:hover{background-image:url(../img/article/sub_brand/brandstory_menu_on_mark.png); background-repeat: no-repeat;background-size:196px 100%;}
-.bs_Slogan:hover{background-image:url(../img/article/sub_brand/brandstory_menu_on_slogan.png); background-repeat: no-repeat;background-size:196px 100%;}
-.bs_SI:hover{background-image:url(../img/article/sub_brand/brandstory_menu_on_concept.png); background-repeat: no-repeat;background-size:196px 100%;}
-*/
+            .brandstory_menubar>ul>li:hover{transition: all 1s ease;}
+            .bs_bi:hover{background-image:url(../img/article/sub_brand/brandstory_menu_on_bi.png); background-repeat: no-repeat;}
+            .bs_mark:hover{background-image:url(../img/article/sub_brand/brandstory_menu_on_mark.png); background-repeat: no-repeat;}
+            .bs_slogan:hover{background-image:url(../img/article/sub_brand/brandstory_menu_on_slogan.png); background-repeat: no-repeat;}
+            .bs_si:hover{background-image:url(../img/article/sub_brand/brandstory_menu_on_concept.png); background-repeat: no-repeat;}
+            
 
             #brandstory_box{width: 604px;height: 320px;background-color: #fff;margin: 0 auto;padding: 6px;border: 4px solid #645622;overflow:hidden;}
-        
-            .box_bi{width: 604px;height: 320px; background-image: url(../img/article/sub_brand/brandstory_bi.png);background-repeat: no-repeat; background-position: center;margin-bottom: 10px;}
-            .box_mark{width: 604px;height: 320px;  background-image: url(../img/article/sub_brand/brandstory_mark.png);background-repeat: no-repeat; background-position: center;margin-bottom: 10px;}
-            .box_slogan{width: 604px;height: 320px; background-image: url(../img/article/sub_brand/brandstory_slogan.png);background-repeat: no-repeat; background-position: center;margin-bottom: 10px;}
-            .box_si{width: 604px;height: 320px;  background-image: url(../img/article/sub_brand/brandstory_si_concept.png);background-repeat: no-repeat; background-position: center;margin-bottom: 10px;}
-
-            .bs_mark>a:hover > #brandstory_box{background-color: #fac;width: 100%;height: 100%;}
+            #brandstory_box>img{width: 608px;height: 324px;}
+            
 
 /*---------------------------etc----------------------*/
 #etc{width: 958px;height: 230px;}
