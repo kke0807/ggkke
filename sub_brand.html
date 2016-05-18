@@ -18,6 +18,21 @@
     <title>어퓨</title>
     <style type="text/css"></style>
      <script type="text/javascript">
+         $(function(){
+            $('#bs_box').children('.brandstory_menubar').find('li').eq(0).on('click',function(){
+               $('#brandstory_box').find('img').attr('src','./img/article/sub_brand/brandstory_bi.png');  
+             });
+             
+            $('#bs_box').children('.brandstory_menubar').find('li').eq(1).on('click',function(){
+               $('#brandstory_box').find('img').attr('src','./img/article/sub_brand/brandstory_mark.png');
+             });
+            $('#bs_box').children('.brandstory_menubar').find('li').eq(2).on('click',function(){
+              $('#brandstory_box').find('img').attr('src','./img/article/sub_brand/brandstory_slogan.png');
+             });
+            $('#bs_box').children('.brandstory_menubar').find('li').eq(3).on('click',function(){
+              $('#brandstory_box').find('img').attr('src','./img/article/sub_brand/brandstory_si_concept.png');
+             });
+         });
     </script>
 </head>
 
@@ -57,15 +72,7 @@
          <div id="brand_maintitle"><span class="me_hidden">브랜드</span></div>
          <div id="brand_submenu"><span class="me_hidden">메뉴전체보기</span></div>
      </div>
-     <div id="ctl_btn">
-        <h3>컨트롤버튼</h3>
-         <ul>
-             <li class="btn_1"><a href="#"><span>1</span></a></li>
-             <li class="btn_2"><a href="#"><span>2</span></a></li>
-             <li class="btn_3"><a href="#"><span>3</span></a></li>
-             <li class="btn_4"><a href="#"><span>4</span></a></li>
-         </ul>
-     </div>
+     
       <div id="brand" class="item">
           <h3>브랜드 소개</h3>
           <div class="brand_title"></div>
@@ -82,22 +89,20 @@
          <h3>브랜드 스토리영역</h3>
          <div class="brandstory_title">   
           </div>
-          <div class="brandstory_menubar">
-                         <ul class="me_link">
-                         <li class="bs_bi"><a href="#"><span>bs_bi</span></a></li>
-                         <li class="bs_mark"><a href="#"><span>bs_mark</span></a></li>
-                         <li class="bs_slogan"><a href="#"><span>bs_slogan</span></a></li>
-                         <li class="bs_si"><a href="#"><span>bs_si</span></a></li>
-                         </ul>
-                     </div>
-              <div id="brandstory_box">
-                     <ul>
-                         <li class="box_bi"></li>
-                         <li class="box_mark"></li>
-                         <li class="box_slogan"></li>
-                         <li class="box_si"></li>
-                     </ul>
-              </div>
+          <div id="bs_box">
+              <div class="brandstory_menubar">
+                             <ul class="me_link">
+                             <li class="bs_bi"><a href="javascript:void(0);"><span>bs_bi</span></a></li>
+                             <li class="bs_mark"><a href="javascript:void(0);"><span>bs_mark</span></a></li>
+                             <li class="bs_slogan"><a href="javascript:void(0);"><span>bs_slogan</span></a></li>
+                             <li class="bs_si"><a href="javascript:void(0);"><span>bs_si</span></a></li>
+                             </ul>
+                         </div>
+                  <div id="brandstory_box">
+                        <img src="./img/article/sub_brand/brandstory_bi.png" alt="어퓨 브랜드스토리 이미지입니다." />
+                       
+                  </div>
+          </div>
       </div><!--//#story-->
       <div id="etc"  class="item">
           <div id="membership_store">
