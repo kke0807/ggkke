@@ -109,9 +109,36 @@
         <h3>멤버쉽카드와 매장 영역</h3>
             <div id="store_box">
         <h4><span class="me_hidden">플래그쉽 스토어</span></h4>
-            <div class="store">
-            <button class="btn_02"></button>
-            </div>
+            <div class="store"><span class="me_hidden">플래그쉽스토어 바로가기</span></div>
+            <div id="store_formbox">
+                <form action="" method="get" role="search">
+                 <fieldset class="store1">
+                      <legend><span class="me_hidden">지역으로 찾기</span></legend>
+                     <ul>
+                         <li>
+                            <select name="" id="store_city">
+                                  <option> -- 지역선택 -- </option>
+                                  <option value="서울">서울</option>
+                                  <option value="경기도">경기도</option>
+                                  <option value="경상도">경상도</option>
+                                  <option value="전라도">전라도</option>
+                                  <option value="충청도">충청도</option>
+                                  <option value="강원도">강원도</option>
+                                  <option value="제주도">제주도</option>
+                              </select>
+                        </li>
+                         <li><button type="button"><span class="me_hidden">검색</span></button></li>
+                     </ul>
+                     
+                  </fieldset>
+                  <fieldset class="store2">
+                      <legend><span class="me_hidden">키워드로 찾기</span></legend>
+                      <input type="search" name="searchBox" id="searchBox" value="" />
+                      <label for="searchBox" class="me_hidden">키워드를 검색하세요.</label>
+                      <button type="button"><span class="me_hidden">검색</span></button>
+                  </fieldset>
+                 </form> 
+                 </div>
             </div>
             <div id="membership_box">
         <h4><span class="me_hidden">멤버쉽</span></h4>
